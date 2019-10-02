@@ -1,7 +1,7 @@
-/Model1.py
-/Model2.py
-/Model3.py
-/Model4.py
-/Model5.py
-/Results_Test.csv
-/Results_Train.csv
+.Model1.py
+.Model2.py
+.Model3.py
+.Model4.py
+.Model5.py
+.Results_Test.csv
+.Results_Train.csv
