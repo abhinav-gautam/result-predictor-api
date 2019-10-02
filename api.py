@@ -104,10 +104,6 @@ def predict_model5():
         return ('No model here to use')
         
 if __name__ == '__main__':
-    try:
-        port = int(sys.argv[1]) # This is for a command-line argument
-    except:
-        port = 12345 # If you don't provide any port then the port will be set to 12345
     dtc_model1 = joblib.load("model1.pkl") # Load "model.pkl"
     dtc_model2 = joblib.load("model2.pkl") # Load "model.pkl"
     dtc_model3 = joblib.load("model3.pkl") # Load "model.pkl"
@@ -120,4 +116,4 @@ if __name__ == '__main__':
     model4_columns = joblib.load("model4_columns.pkl") # Load "model_columns.pkl"
     model5_columns = joblib.load("model5_columns.pkl") # Load "model_columns.pkl"
     print ('Model columns loaded')
-    app.run(port=port, debug=True)
+    app.run()
