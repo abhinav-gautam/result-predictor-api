@@ -8,6 +8,9 @@ import traceback
 app = Flask(__name__)
 CORS(app)
 
+@app.route('/')
+def index():
+    return ('<h1>Running</h1>')
 @app.route('/predict_model1', methods=['POST'])
 def predict_model1():
     if dtc_model1:
