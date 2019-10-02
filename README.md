@@ -1,1 +1,3 @@
-# result_predictor
+# result-predictor-api
+
+python app.py
