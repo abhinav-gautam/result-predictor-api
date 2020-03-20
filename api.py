@@ -12,13 +12,13 @@ dtc_model2 = joblib.load("model2.pkl") # Load "model.pkl"
 dtc_model3 = joblib.load("model3.pkl") # Load "model.pkl"
 dtc_model4 = joblib.load("model4.pkl") # Load "model.pkl"
 dtc_model5 = joblib.load("model5.pkl") # Load "model.pkl"
-print ('Models loaded')
+print ('[+] Models loaded')
 model1_columns = joblib.load("model1_columns.pkl") # Load "model_columns.pkl"
 model2_columns = joblib.load("model2_columns.pkl") # Load "model_columns.pkl"
 model3_columns = joblib.load("model3_columns.pkl") # Load "model_columns.pkl"
 model4_columns = joblib.load("model4_columns.pkl") # Load "model_columns.pkl"
 model5_columns = joblib.load("model5_columns.pkl") # Load "model_columns.pkl"
-print ('Model columns loaded')
+print ('[+] Model columns loaded')
 @app.route('/')
 def index():
     return ('<h1>Running</h1>')
