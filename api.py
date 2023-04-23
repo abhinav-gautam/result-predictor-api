@@ -1,8 +1,8 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 import joblib
-import pandas as pd
-import traceback
+# import pandas as pd
+# import traceback
 
 
 app = Flask(__name__)
