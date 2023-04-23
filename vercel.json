@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "*.py",
+            "use": "@abhinavgautam/rp-single-result-api"
+        }
+    ],
+    "routes": [
+        {
+            "src": "(.*)",
+            "dest": "api.py"
+        }
+    ]
+}
