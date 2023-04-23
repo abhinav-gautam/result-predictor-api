@@ -7,6 +7,7 @@ import traceback
 
 app = Flask(__name__)
 CORS(app)
+# Load models
 dtc_model1 = joblib.load("./static/model1.pkl")  # Load "model.pkl"
 dtc_model2 = joblib.load("./static/model2.pkl")  # Load "model.pkl"
 dtc_model3 = joblib.load("./static/model3.pkl")  # Load "model.pkl"
