@@ -1,7 +1,7 @@
 # This file may be used to create an environment using:
 # $ conda create --name <env> --file <this file>
 # platform: win-64
-blas=1.0=mkl
+blas==1.0=mkl
 certifi=2021.5.30=py36haa95532_0
 click=8.0.3=pyhd3eb1b0_0
 colorama=0.4.4=pyhd3eb1b0_0
